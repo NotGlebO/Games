@@ -111,7 +111,7 @@ while balance != 0:
           print("Ваш выигры составляет " + str(pobeda) + "(x3)")
           balance += pobeda
         if color != "black":
-          print("Вы проиграл: " + str(stavka))
+          print("Вы проиграли: " + str(stavka))
 
     
   
@@ -143,3 +143,5 @@ while balance != 0:
         balance += eeo
       if ch != "odd":
         print("Вы проиграли: " + str(stavka))
+
+  print("")
